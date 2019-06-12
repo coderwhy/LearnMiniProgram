@@ -1,0 +1,20 @@
+<!-- 1.view的基本使用 -->
+<view class='box'>哈哈哈</view>
+<view>呵呵呵</view>
+
+<!-- 2.hover-class: 当用户按下组件时,显示的样式 -->
+<view class='box1' 
+      hover-class='hover-view'
+      hover-stay-time="{{0}}">
+  box1
+</view>
+
+<!-- 3.hover-stop-propagation: 阻止祖先组件的点击态 -->
+<view class='box2' hover-class='box2-hover'>
+  <view class='box1' 
+      hover-class='hover-view'
+      hover-stay-time="{{0}}"
+      hover-stop-propagation>
+    box1
+  </view>
+</view>

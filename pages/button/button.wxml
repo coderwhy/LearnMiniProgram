@@ -1,0 +1,42 @@
+<!--pages/button/button.wxml-->
+<text>pages/button/button.wxml</text>
+
+<!-- 1.button基本使用: block -->
+<button>按钮</button>
+
+<!-- 2.size: mini/default -->
+<button size='mini'>按钮</button>
+
+<!-- 3.type: primary/default/warn -->
+<view>
+  <button type='primary' size='mini'>主要</button>
+  <button type='default' size='mini'>默认</button>
+  <button type='warn' size='mini'>警告</button>
+</view>
+
+<!-- 4.plain: true背景透明 -->
+<view>
+  <button size='mini' plain="{{true}}">按钮</button>
+</view>
+
+<!-- 5.disable: true不可以和用户交互 -->
+<view>
+  <button size='mini' disabled='{{true}}'>按钮</button>
+</view>
+
+<!-- 6.loading -->
+<view>
+  <button size='mini' loading='{{true}}'>按钮</button>
+</view>
+
+<!-- 7.hover-class:  -->
+<view>
+  <button size='mini' hover-class='hover'>按钮</button>
+</view>
+
+<!-- 8.open-type属性 -->
+<view>
+  <button size='mini' open-type='contact' bindcontact='onBindContact'>客服会话</button>
+  <button size='mini' open-type='share'>小程序分享</button>
+  <button size='mini' open-type='getUserInfo' bindgetuserinfo='onGetUserInfo'>用户信息</button>
+</view> 
