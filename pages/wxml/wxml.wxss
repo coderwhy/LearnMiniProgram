@@ -1,0 +1,13 @@
+/* pages/wxml/wxml.wxss */
+.box {
+  font-size: 64rpx;
+}
+
+.active {
+  color: red;
+}
+
+.map {
+  width: 750rpx;
+  height: 400rpx;
+}

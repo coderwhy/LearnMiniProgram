@@ -1,0 +1,8 @@
+
+.content1 {
+  font-size: 32px;
+}
+
+.content2 {
+  font-size: 64rpx;
+}

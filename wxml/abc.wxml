@@ -1,0 +1,3 @@
+<template name="abc">
+  <view>我是abc模板的内容</view>
+</template>

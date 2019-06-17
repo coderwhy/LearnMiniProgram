@@ -1,3 +1,14 @@
 <!--pages/home/home.wxml-->
-<text class='title'>Hello World</text>
-<button size='mini'>按钮</button>
+<include src="/wxml/header.wxml"/>
+
+<text id='content' selectable class='title'>Hello World</text>
+<button id='' size='mini'>按钮</button>
+<view id='content'></view>
+<scroll-view id=''></scroll-view>
+
+<!-- 1.hidden属性 -->
+<view hidden class='container box'>哈哈哈</view>
+
+<import src="/wxml/template.wxml"/>
+
+<include src="/wxml/footer.wxml"/>
