@@ -3,3 +3,50 @@
   color: red;
   font-size: 30px;
 }
+
+.box {
+  width: 300rpx;
+  height: 300rpx;
+  background: orange;
+}
+
+.outer {
+  width: 400rpx;
+  height: 400rpx;
+  background: red;
+  color: white;
+}
+
+.inner {
+  width: 200rpx;
+  height: 200rpx;
+  background: blue;
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  text-align: center;
+}
+
+.view1 {
+  width: 600rpx;
+  height: 600rpx;
+  background: red;
+}
+
+.view2 {
+  width: 400rpx;
+  height: 400rpx;
+  background: blue;
+}
+
+.view3 {
+  width: 200rpx;
+  height: 200rpx;
+  background: green;
+}
