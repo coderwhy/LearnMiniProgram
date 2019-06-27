@@ -23,3 +23,41 @@
 <w-tab-control titles="{{['衣服', '裤子', '鞋子']}}"
                bind:itemclick="handleTabClick"/>
 
+<!-- 6.直接选中组件修改数据/调用方法 -->
+<button size='mini' bind:tap="handleIncrementCpn">修改组件内的数据</button>
+<my-sel class="sel-class" id="sel-id"/>
+
+<view>----------------------------------</view>
+
+<!-- 7.插槽的使用 -->
+<!-- 7.1.单个插槽的使用 -->
+<my-slot>
+  <button size='mini'>我是插入的按钮</button>
+</my-slot>
+
+<my-slot>
+  <text>哈哈哈哈哈哈</text>
+</my-slot>
+
+<my-slot>
+  <image src="http://s3.mogucdn.com/mlcdn/c45406/170915_0a93207ci28kelh617k4hh62l65lb_640x960.jpg"/>
+</my-slot>
+
+<my-slot>
+  <slider value='60'></slider>
+</my-slot>
+
+<!-- 7.2.多个插槽的使用 -->
+<!-- 
+  注意事项:
+    1.给每一个插槽起一个名字: name属性
+    2.必须在Component对象中添加一个选项: options -> multipleSlots: true
+ -->
+<button size='mini' bind:tap="handleChangeShow">切换显示</button>
+<block wx:if="{{isShow}}">
+  <my-mslot>
+    <button size='mini' slot="slot2">我是插入的按钮</button>
+    <slider slot="slot1"/>
+    <text slot="slot3">哈哈哈哈</text>
+  </my-mslot>
+</block>
