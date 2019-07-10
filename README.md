@@ -3,11 +3,9 @@
 
 > 本项目是学习小程序开发的练习项目，课程完全免费，如果对您有帮助，欢迎star
 
-课程地址：https://ke.qq.com/course/409452?taid=3285843255377772&tuin=610ad985
+讲解视频：链接: https://pan.baidu.com/s/1O2vkYTs2wAzXhniZz79Rfg 提取码: tbgw 
 
 课程代码：https://github.com/coderwhy/LearnMiniProgram
-
-百度网盘：链接: https://pan.baidu.com/s/1O2vkYTs2wAzXhniZz79Rfg 提取码: tbgw 
 
 课程大纲：
 
